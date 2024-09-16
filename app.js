@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 require("./connection/conn"); // Import the MongoDB connection setup
 
-const Submission = require("./routes/submission");
+const Submission = require("./routes/Submission");
 
 // Middleware to parse JSON bodies
 app.use(cors());
